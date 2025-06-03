@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Моё резюме</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="resume">
+        <h1>Резюме</h1>
+        
+        <!-- Фото -->
+        <img src="https://avatars.githubusercontent.com/u/133087430?s=400&u=476efd05186aab71f9b46dc566903b3d1fd8a5b9&v=4" alt="Моё фото" class="photo">
+        
+        <!-- Имя и фамилия -->
+        <div class="name-section">
+            <p id="firstName">Влад</p>
+            <p id="lastName">Дегтярев</p>
+        </div>
+        
+        <!-- Поле ввода и кнопка для изменения фамилии -->
+        <div class="input-section">
+            <input type="text" id="newLastName" placeholder="Введите новую фамилию">
+            <button onclick="changeLastName()">Изменить фамилию</button>
+        </div>
+        
+        <!-- Кнопка для смены фона -->
+        <button onclick="changeBackground()">Случайный фон</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
